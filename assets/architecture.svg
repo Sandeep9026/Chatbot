@@ -1,0 +1,24 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="420" rx="28" fill="#F7F3EC"/>
+  <rect x="48" y="60" width="1184" height="300" rx="28" fill="#FFFFFF" fill-opacity="0.76"/>
+  <rect x="100" y="112" width="280" height="190" rx="26" fill="#FFF8F2"/>
+  <rect x="500" y="112" width="280" height="190" rx="26" fill="#F5FAF7"/>
+  <rect x="900" y="112" width="280" height="190" rx="26" fill="#F7F9FB"/>
+  <text x="138" y="156" fill="#D96C3D" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">FRONTEND</text>
+  <text x="138" y="200" fill="#1A242C" font-family="Arial, sans-serif" font-size="34" font-weight="700">Chat Interface</text>
+  <text x="138" y="237" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">HTML, CSS, JavaScript</text>
+  <text x="138" y="267" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">Quick actions, avatars,</text>
+  <text x="138" y="293" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">responsive layout</text>
+  <text x="538" y="156" fill="#5F8D76" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">BACKEND</text>
+  <text x="538" y="200" fill="#1A242C" font-family="Arial, sans-serif" font-size="34" font-weight="700">Flask API</text>
+  <text x="538" y="237" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">Serves UI and handles</text>
+  <text x="538" y="263" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">structured `/chat` requests</text>
+  <text x="938" y="156" fill="#2D4454" font-family="Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="0.12em">NLP ENGINE</text>
+  <text x="938" y="200" fill="#1A242C" font-family="Arial, sans-serif" font-size="34" font-weight="700">Intent Matcher</text>
+  <text x="938" y="237" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">Normalization, fuzzy</text>
+  <text x="938" y="263" fill="#5A6670" font-family="Arial, sans-serif" font-size="20">matching, confidence scoring</text>
+  <path d="M381 207H483" stroke="#D96C3D" stroke-width="6" stroke-linecap="round"/>
+  <path d="M779 207H881" stroke="#5F8D76" stroke-width="6" stroke-linecap="round"/>
+  <path d="M467 191L489 207L467 223" stroke="#D96C3D" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M865 191L887 207L865 223" stroke="#5F8D76" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

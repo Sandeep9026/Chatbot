@@ -1,0 +1,36 @@
+<svg width="1280" height="900" viewBox="0 0 1280 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="900" rx="28" fill="#F7F3EC"/>
+  <rect x="40" y="40" width="1200" height="820" rx="32" fill="white" fill-opacity="0.68"/>
+  <rect x="84" y="84" width="1112" height="178" rx="30" fill="#FFF9F2"/>
+  <text x="124" y="132" fill="#5F8D76" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="0.18em">ASTERA COMMERCE</text>
+  <text x="124" y="204" fill="#1A242C" font-family="Arial, sans-serif" font-size="54" font-weight="700">Astera Support Desk</text>
+  <text x="124" y="246" fill="#5A6670" font-family="Arial, sans-serif" font-size="24">Customer help for orders, returns, billing, and account support.</text>
+  <rect x="882" y="112" width="250" height="116" rx="22" fill="#243746"/>
+  <text x="911" y="150" fill="#D6E7DD" font-family="Arial, sans-serif" font-size="18">Digital Associate</text>
+  <text x="911" y="187" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="700">Mia Reynolds</text>
+  <text x="911" y="214" fill="#B3C6D2" font-family="Arial, sans-serif" font-size="18">Customer Care Specialist</text>
+  <rect x="84" y="292" width="1112" height="86" rx="24" fill="#FCF7F1"/>
+  <circle cx="133" cy="335" r="25" fill="#D96C3D"/>
+  <text x="178" y="327" fill="#1A242C" font-family="Arial, sans-serif" font-size="26" font-weight="700">Support Chat</text>
+  <text x="178" y="356" fill="#68737C" font-family="Arial, sans-serif" font-size="20">Talk to Mia for faster customer support guidance</text>
+  <rect x="1006" y="314" width="150" height="42" rx="21" fill="#D7E7DD"/>
+  <text x="1030" y="341" fill="#294437" font-family="Arial, sans-serif" font-size="18" font-weight="700">Replies instantly</text>
+  <rect x="84" y="402" width="1112" height="362" rx="28" fill="#FFFDF9"/>
+  <circle cx="148" cy="478" r="28" fill="#E0B4A0"/>
+  <rect x="194" y="438" width="526" height="90" rx="24" fill="white"/>
+  <text x="222" y="474" fill="#1A242C" font-family="Arial, sans-serif" font-size="22" font-weight="700">Hi, I'm Mia from Astera support.</text>
+  <text x="222" y="505" fill="#5A6670" font-family="Arial, sans-serif" font-size="19">Ask about order tracking, refunds, payment issues,</text>
+  <text x="222" y="531" fill="#5A6670" font-family="Arial, sans-serif" font-size="19">address changes, or support contact details.</text>
+  <circle cx="1128" cy="600" r="28" fill="#2D4454"/>
+  <rect x="726" y="560" width="362" height="92" rx="24" fill="#2D4454"/>
+  <text x="754" y="601" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="22" font-weight="700">My payment failed but money was deducted.</text>
+  <circle cx="148" cy="681" r="28" fill="#E0B4A0"/>
+  <rect x="194" y="640" width="550" height="104" rx="24" fill="white"/>
+  <text x="222" y="676" fill="#1A242C" font-family="Arial, sans-serif" font-size="21" font-weight="700">If payment failed but money was deducted,</text>
+  <text x="222" y="706" fill="#5A6670" font-family="Arial, sans-serif" font-size="18">please wait up to 30 minutes for an automatic</text>
+  <text x="222" y="731" fill="#5A6670" font-family="Arial, sans-serif" font-size="18">reversal, then contact support with the transaction ID.</text>
+  <rect x="84" y="786" width="836" height="58" rx="22" fill="white"/>
+  <text x="113" y="823" fill="#8A949D" font-family="Arial, sans-serif" font-size="22">Ask about orders, refunds, delivery, coupons, account access...</text>
+  <rect x="952" y="786" width="244" height="58" rx="22" fill="#D96C3D"/>
+  <text x="1048" y="823" fill="white" font-family="Arial, sans-serif" font-size="22" font-weight="700">Send</text>
+</svg>
