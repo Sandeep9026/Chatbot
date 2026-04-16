@@ -208,6 +208,55 @@ python app.py
 http://127.0.0.1:5000
 ```
 
+## Free Deployment Option
+
+As of April 17, 2026, the easiest free option for this Flask project is PythonAnywhere.
+
+Why this is the best fit:
+
+- PythonAnywhere still offers a free `Beginner` account
+- it supports Flask directly
+- it is simpler for this project than converting the app to serverless hosting
+- it does not require the `gunicorn` startup flow used by platforms like Render
+
+Important free-plan limits:
+
+- 1 web app
+- 1 web worker
+- 512 MiB disk space
+- 2 consoles
+- 1 month expiry on the free web app
+
+Official sources:
+
+- PythonAnywhere free account features: https://help.pythonanywhere.com/pages/FreeAccountsFeatures
+- PythonAnywhere pricing: https://www.pythonanywhere.com/pricing/
+- Flask setup guide: https://help.pythonanywhere.com/pages/Flask
+
+### Deploy To PythonAnywhere
+
+1. Create a free PythonAnywhere account.
+2. Open the `Web` tab.
+3. Click `Add a new web app`.
+4. Choose `Manual configuration` and select Python 3.
+5. Upload or clone this GitHub repo into your PythonAnywhere home folder.
+6. Open the WSGI configuration file from the `Web` tab.
+7. Replace its contents with the code from `pythonanywhere_wsgi.py`, but change:
+
+```python
+project_home = Path("/home/yourusername/Chatbot")
+```
+
+to your real PythonAnywhere username and folder path.
+
+8. Reload the web app from the `Web` tab.
+
+### Notes
+
+- On PythonAnywhere, your Flask app is loaded through the WSGI file, not by running `python app.py`.
+- The `if __name__ == "__main__":` block in `app.py` is fine and will not run during PythonAnywhere import.
+- If you want, I can next simplify the repo for PythonAnywhere specifically and remove the Render-only files.
+
 ## Example Questions To Test
 
 - Where is my order?
