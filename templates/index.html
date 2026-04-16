@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astera Support | Smart Customer Help Desk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="page-shell">
+        <section class="hero">
+            <div class="hero-copy">
+                <span class="eyebrow">Astera Commerce</span>
+                <h1>Astera Support Desk</h1>
+                <p class="hero-text">
+                    Fast, polished customer support for delivery questions, returns, billing, and account help. Built to feel like a real product, not a classroom demo.
+                </p>
+                <div class="feature-pills">
+                    <span>Customer Care</span>
+                    <span>Order Support</span>
+                    <span>Responsive Experience</span>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="metric">
+                    <span class="metric-label">Support Coverage</span>
+                    <strong>Orders, returns, billing, account</strong>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Digital Associate</span>
+                    <strong>Mia Reynolds</strong>
+                </div>
+                <div class="metric">
+                    <span class="metric-label">Built For</span>
+                    <strong>Modern ecommerce support</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="chatbot-panel">
+            <div class="panel-header">
+                <div>
+                    <p class="section-label">Support Chat</p>
+                    <h2>Talk to Mia</h2>
+                </div>
+                <button id="clear-chat" class="ghost-button" type="button">Clear Chat</button>
+            </div>
+
+            <div class="agent-strip">
+                <div class="agent-profile">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=160&q=80" alt="Support agent Mia">
+                    <div>
+                        <strong>Mia Reynolds</strong>
+                        <span>Customer Care Specialist</span>
+                    </div>
+                </div>
+                <div class="availability-pill">
+                    <span class="status-dot"></span>
+                    Typically replies instantly
+                </div>
+            </div>
+
+            <div id="chat-box" class="chat-box" aria-live="polite">
+                <div class="message bot">
+                    <div class="avatar">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=96&q=80" alt="Mia">
+                    </div>
+                    <div class="bubble">
+                        Hi, I'm Mia from Astera support. I can help with order tracking, refund requests, payment issues, address changes, product availability, and connecting you to support.
+                    </div>
+                </div>
+            </div>
+
+            <div id="quick-actions" class="quick-actions">
+                <button type="button" class="quick-chip">Track my order</button>
+                <button type="button" class="quick-chip">Change delivery address</button>
+                <button type="button" class="quick-chip">Payment failed</button>
+                <button type="button" class="quick-chip">Refund policy</button>
+            </div>
+
+            <form id="chat-form" class="chat-form">
+                <input
+                    id="user-input"
+                    type="text"
+                    name="message"
+                    placeholder="Ask about orders, refunds, delivery, coupons, account access..."
+                    autocomplete="off"
+                    required
+                >
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+        <section class="info-grid">
+            <article class="info-card">
+                <p class="section-label">Support Experience</p>
+                <h3>Built For Real Customer Queries</h3>
+                <p>
+                    Customers can ask about delayed deliveries, address edits, refund timelines, coupon issues, payment failures, and other common ecommerce problems.
+                </p>
+            </article>
+            <article class="info-card">
+                <p class="section-label">Conversation Design</p>
+                <h3>Helpful Without Feeling Robotic</h3>
+                <p>
+                    The chatbot uses broader intent matching, better prompt suggestions, and a more natural support tone so the interaction feels more believable.
+                </p>
+            </article>
+            <article class="info-card accent-card">
+                <p class="section-label">Operations</p>
+                <h3>Ready To Extend</h3>
+                <p>
+                    This support desk can later connect to live order APIs, ticket creation, CRM tools, and account systems without changing the product direction.
+                </p>
+            </article>
+        </section>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
