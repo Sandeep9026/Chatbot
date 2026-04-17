@@ -15,6 +15,10 @@ Astera Support Desk is a customer-service chatbot for ecommerce support teams. I
 
 This project was built to demonstrate practical product thinking, backend API design, frontend execution, and applied NLP fundamentals in a way that feels closer to a real support tool than a classroom prototype.
 
+## Live Demo
+
+[Open Astera Support Desk](https://sandeep9026.pythonanywhere.com)
+
 ## Portfolio Summary
 
 Astera Support Desk is a polished full-stack chatbot project that demonstrates:
